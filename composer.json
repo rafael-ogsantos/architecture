@@ -1,0 +1,22 @@
+{
+    "name": "rafael/arquitetura",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rafael-ogsantos",
+            "email": "rafaelogsantos@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
